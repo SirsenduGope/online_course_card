@@ -15,7 +15,7 @@
 
 	<!--Update Student Details-->
 
-	<div id="test2" class="col s12">
+	<div id="test2" class="col s12" disabled>
 		<div class=" row">
 			<form name="student_search" class="col s12">
 				<div class="row">
@@ -42,9 +42,8 @@
 
 			<hr>
 			<hr>
-			
+
 			<?php require("Form/student_register_form.php") ?>
 		</div>
 	</div>
 </div>
-

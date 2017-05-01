@@ -1,6 +1,6 @@
 <form name="student_add" action="" method="post" class="col s12">
 	<div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s6" disabled="true">
 
           <input  id="reg_no" name="regno" type="text" class="validate" pattern="[0-9]{8}" required>
           <label for="reg_no" data-error="wrong" data-success="right">Registration Number</label>
@@ -78,10 +78,10 @@
 		<div class="row">
 			<div class="input-field col s6">
 				<i class="material-icons prefix">phone</i>
-				<input id="phone" type="text" class="validate" pattern="[0-9]+" data-length="10" required>
+				<input id="phone" type="text" class="validate" pattern="[0-9]{10}" required>
 				<label for="phone" data-error="wrong" data-success="right">Phone</label>
 			</div>
-	
+
 			<div class="input-field col s6">
 				<i class="material-icons prefix">email</i>
 				<input id="email" type="email" class="validate" required>
@@ -108,7 +108,7 @@
 
 		<div class="row">
 			<div class="input-field col s12">
-				<i class="material-icons prefix">Location_on</i>
+				<i class="material-icons prefix">location_on</i>
 				<textarea id="local_add" class="materialize-textarea" data-length="100" required></textarea>
 				<label for="local_add" data-error="wrong" data-success="right">Local Address</label>
 			</div>
@@ -140,13 +140,13 @@
 			</div>
 
         <div class="input-field col s6">
-        	<i class="material-icons prefix">Today</i>
+        	<i class="material-icons prefix">today</i>
           	<input id="doa" type="date" class="datepicker" required>
 				<label for="doa">Date of Admission </label>
         </div>
     </div>
 
     <button class="btn waves-effect waves-light"  type="submit" name="action">Submit
-		<i class="material-icons right">Send</i>
+		<i class="material-icons right">send</i>
 	</button>
 </form>

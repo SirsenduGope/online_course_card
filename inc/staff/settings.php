@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="input-field col s6">
 			<i class="material-icons prefix">phone</i>
-			<input id="phone" type="text" class="validate" pattern="[0-9]+" data-length="10" required>
+			<input id="phone" type="text" class="validate" pattern="[0-9]{10}" required>
 			<label for="phone" data-error="wrong" data-success="right">Phone</label>
 		</div>
 
