@@ -18,14 +18,13 @@
 	  </select>
 	  <label>Year</label>
 	</div>
-    
-    
+
+
 	<div class="input-field col s4">
 		 <select id='f_std_semester' disabled>
 	      <option value="" disabled selected>Chose your option</option>
 	    <!--  <option value="1">Subject 1</option>
 	      <option value="2">Subject 2</option>_-->
-	      <option value="3">Subject 3</option>  
 	  </select>
 	  <label>Semester</label>
 	</div><div class="input-field col s4">
@@ -38,7 +37,7 @@
 	  <label>Subject</label>
 	</div>
 
-	
+
 </div>
 
 <br>
