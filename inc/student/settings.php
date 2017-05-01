@@ -2,13 +2,13 @@
 	<div class="row">
 		<div class="input-field col s6">
 			<i class="material-icons prefix">phone</i>
-			<input id="phone" type="text" class="validate" pattern="[0-9]+" data-length="10">
+			<input id="phone" type="text" class="validate" pattern="[0-9]+" data-length="10" required>
 			<label for="phone" data-error="wrong" data-success="right">Phone</label>
 		</div>
 
 		<div class="input-field col s6">
 			<i class="material-icons prefix">email</i>
-			<input id="email" type="email" class="validate">
+			<input id="email" type="email" class="validate" required>
 			<label for="email" data-error="wrong" data-success="right">Email</label>
 		</div>
 	</div>
@@ -16,14 +16,14 @@
 	<div class="row">
 		<div class="input-field col s12">
 			<i class="material-icons prefix">location_on</i>
-			<textarea id="local_add" class="materialize-textarea" data-length="100"></textarea>
+			<textarea id="local_add" class="materialize-textarea" data-length="100" required></textarea>
 			<label for="local_add" data-error="wrong" data-success="right">Local Address</label>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="input-field col s6">
-			<input id="password" type="password" class="validate" pattern="[a-zA-Z0-9\!\@\#\$\%\&\*\-\_\*]+">
+			<input id="password" type="password" class="validate" pattern="[a-zA-Z0-9\!\@\#\$\%\&\*\-\_\*]+" required>
 			<label for="password" data-error="wrong" data-success="right">Password</label>
 		</div>
 	</div>

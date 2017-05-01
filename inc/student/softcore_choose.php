@@ -23,19 +23,19 @@
 			<form>
 				<div class="row">
 					<div class="input-field col s6">
-			          <input  id="subject_id" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="subject_id" type="text" class="validate" pattern="\b(COMS)\b\-\s[0-9]{5}" required>
 			          <label for="subject_id" data-error="wrong" data-success="right">Subject ID</label>
 			        </div>
 
 			        <div class="input-field col s6">
-			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z\s]+" required>
 			          <label for="subject_name" data-error="wrong" data-success="right">Subject Name</label>
 			        </div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s6">
-			          <input  id="subject_credit" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]{2,3}" required>
 			          <label for="subject_credit" data-error="wrong" data-success="right">Subject Credit</label>
 			        </div>
 

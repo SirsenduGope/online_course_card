@@ -13,30 +13,30 @@
 			<form name="subject_add" class="col s12">
 				<div class="row">
 			        <div class="input-field col s6">
-			          <input  id="course_id" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="course_id" type="text" class="validate" pattern="[0-9]+" required>
 			          <label for="course_id" data-error="wrong" data-success="right">Course ID</label>
 			        </div>
 			        <div class="input-field col s6">
-			          <input  id="subject_id" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="subject_id" type="text" class="validate" pattern="\b(COMS|coms)\b[\-\s]{1}[0-9]{3}+" required>
 			          <label for="subject_id" data-error="wrong" data-success="right">Subject ID</label>
 			        </div>
 			    </div>
 				 <div class="row">
 			        <div class="input-field col s6">
-			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z]+">
+			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z]+" required>
 			          <label for="subject_name" data-error="wrong" data-success="right">Subject Name</label>
 			        </div>
       			</div>
 
       			<div class="row">
 			        <div class="input-field col s6">
-			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]" Data-length="1">
+			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]{2,3}" required>
 			          <label for="subject_credit" data-error="wrong" data-success="right">Credit</label>
 			        </div>
 
 			        <div class="input-field col s4">
 						<select>
-					     	<option value="" disabled selected>Chose your option</option>
+					     	<option value="" disabled selected>Choose your option</option>
 					     	<option value="1">Hardcore</option>
 					     	<option value="2">Softcore</option>
 					  	</select>
@@ -47,7 +47,7 @@
       			<div class="row">
 			        <div class="input-field col s4">
 						<select>
-					     	<option value="" disabled selected>Chose your option</option>
+					     	<option value="" disabled selected>Choose your option</option>
 					     	<option value="1">1</option>
 					     	<option value="2">2</option>
 					     	<option value="2">3</option>
@@ -59,7 +59,7 @@
 					</div>
       			</div>
 			    <button class="btn waves-effect waves-light"  type="submit" name="action">Submit
-					<i class="material-icons right">send</i>
+					<i class="material-icons right">Send</i>
 				</button>
 			</form>
 		</div>
@@ -73,19 +73,19 @@
 			<form name="subject_search" class="col s12">
 				<div class="input-field col s4">
 					<select>
-			      		<option value="" disabled selected>Chose your option</option>
+			      		<option value="" disabled selected>Choose your option</option>
 			      		<option value="1">MCA</option>
 			      		<option value="2">M.Sc.</option>
 			      		<option value="3">M.Tech.</option>
 			  		</select>
-			  		<label>Corse</label>
+			  		<label>Course</label>
 
 			  		<button class="btn waves-effect waves-light"  type="submit" name="action">Submit
-						<i class="material-icons right">send</i>
+						<i class="material-icons right">Send</i>
 					</button>
 			  	</div>
       				<div class="input-field col s4">
-			          	<input  id="subject_id" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          	<input  id="subject_id" type="text" class="validate" pattern="\b(COMS|coms)\b[\-\s]{1}[0-9]{3}+" required>
 			          	<label for="subject_id" data-error="wrong" data-success="right">Subject ID</label>
 			        </div>
 			</form>
@@ -96,30 +96,30 @@
 			<form name="subject_update" class="col s12">
 				<div class="row">
 			        <div class="input-field col s6">
-			          <input  id="course_id" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="course_id" type="text" class="validate" pattern="[0-9]{3}" required>
 			          <label for="course_id" data-error="wrong" data-success="right">Course ID</label>
 			        </div>
 			        <div class="input-field col s6">
-			          <input  id="subject_id" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="subject_id" type="text" class="validate" pattern="\b(COMS|coms)\b[\-\s]{1}[0-9]{3}+" required>
 			          <label for="subject_id" data-error="wrong" data-success="right">Subject ID</label>
 			        </div>
 			    </div>
 				 <div class="row">
 			        <div class="input-field col s6">
-			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z]+">
+			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z]+" required>
 			          <label for="subject_name" data-error="wrong" data-success="right">Subject Name</label>
 			        </div>
       			</div>
 
       			<div class="row">
 			        <div class="input-field col s6">
-			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]" Data-length="1">
+			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]{1}" required>
 			          <label for="subject_credit" data-error="wrong" data-success="right">Credit</label>
 			        </div>
 
 			        <div class="input-field col s4">
 						<select>
-					     	<option value="" disabled selected>Chose your option</option>
+					     	<option value="" disabled selected>Choose your option</option>
 					     	<option value="1">Hardcore</option>
 					     	<option value="2">Softcore</option>
 					  	</select>
@@ -130,7 +130,7 @@
       			<div class="row">
 			        <div class="input-field col s4">
 						<select>
-					     	<option value="" disabled selected>Chose your option</option>
+					     	<option value="" disabled selected>Choose your option</option>
 					     	<option value="1">1</option>
 					     	<option value="2">2</option>
 					     	<option value="2">3</option>
@@ -142,7 +142,7 @@
 					</div>
       			</div>
 			    <button class="btn waves-effect waves-light"  type="submit" name="action">Update
-					<i class="material-icons right">send</i>
+					<i class="material-icons right">Send</i>
 				</button>
 			</form>
 		</div>

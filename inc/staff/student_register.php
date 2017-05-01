@@ -9,8 +9,12 @@
 	<!--Add New Student-->
 	<div id="test1" class="col s12">
 		<div class=" row">
+<<<<<<< HEAD
 			<?php require("Form/student_register_form.php") ?>
 
+=======
+            <?php require("Form/student_register_form.php") ?>
+>>>>>>> 91856a0a22933df493c423d604dfd79c03213057
 		</div>
 	</div>
 
@@ -23,11 +27,10 @@
 			        <div class="input-field col s4">
       					 <select>
 						      <option value="" disabled selected>Chose your option</option>
-						      <option value="1">Integrated</option>
-						      <option value="2">M.Sc.</option>
+						      <option value="2">M.Sc</option>
 						      <option value="3">MCA</option>
-						      <option value="4">M.Tech.</option>
-						      <option value="5">PhD</option>
+						      <option value="4">M.Tech(NIE)</option>
+						      <option value="4">M.Tech(CSE)</option>
 						    </select>
 						    <label>Course</label>
 						    <button class="btn waves-effect waves-light"  type="submit" name="action">Submit
@@ -36,7 +39,7 @@
       				</div>
 
       				<div class="input-field col s4">
-			          <input  id="reg_no" type="text" class="validate" pattern="[a-zA-Z0-9]+">
+			          <input  id="reg_no" type="text" class="validate" pattern="[0-9]{8}"  required>
 			          <label for="reg_no" data-error="wrong" data-success="right">Registration Number</label>
 			        </div>
       			</div>
