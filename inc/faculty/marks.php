@@ -2,7 +2,7 @@
 	<form name="faculty_marks" class="col s12">
 		<div class="row ">
 			<div class="input-field col s4">
-				 <select>
+				 <select id="f_marks_course">
 			      <option value="" disabled selected>Chose your option</option>
 			      <option value="1">MCA</option>
 			      <option value="2">M.Sc.</option>
@@ -11,7 +11,7 @@
 			  <label>Course</label>
 			</div>
 			<div class="input-field col s4">
-				 <select>
+				 <select id="f_marks_subject" disabled>
 			      <option value="" disabled selected>Chose your option</option>
 			      <option value="1">Subject 1</option>
 			      <option value="2">Subject 2</option>
@@ -23,27 +23,32 @@
 
 		<div class="row">
 			<div class="input-field col s4">
-				 <select>
+				 <select id="f_marks_exam" disabled>
 			      <option value="" disabled selected>Chose your option</option>
 			      <option value="1">Internal</option>
 			      <option value="2">External</option>
 			  </select>
 			  <label>Exam</label>
 			</div>
+            <div id='f_marks_internal_div'>
 			<div class="input-field col s4">
-				 <select>
+                
+				 <select id="f_marks_internal">
 			      <option value="" disabled selected>Chose your option</option>
 			      <option value="1">Internal 1</option>
 			      <option value="2">Internal 2</option>
 			      <option value="3">Internal 3</option>
 			  </select>
 			  <label>Internal</label>
+                    
 			</div>
+            </div>
 		</div>
 
 		<div class="row">
+            
 			<div class="input-field col s4">
-				 <select>
+				 <select id="f_marks_year" disabled>
 			      <option value="" disabled selected>Chose your option</option>
 			      <option value="1">MCA</option>
 			      <option value="2">M.Sc.</option>
@@ -51,6 +56,7 @@
 			  </select>
 			  <label>Admission Year</label>
 			</div>
+            
 		</div>
 
 		<button class="btn waves-effect waves-light" type="submit" name="action">Submit
