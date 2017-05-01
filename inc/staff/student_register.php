@@ -10,6 +10,7 @@
 	<div id="test1" class="col s12">
 		<div class=" row">
 			<?php require("Form/student_register_form.php") ?>
+
 		</div>
 	</div>
 
