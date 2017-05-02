@@ -17,7 +17,7 @@
 			      <option value="2">M.Sc.</option>
 			      <option value="3">M.Tech.</option>
 			  </select>
-			  <label>Corse</label>
+			  <label>Course</label>
 			</div>
 			<div class="input-field col s4">
 				 <select>

@@ -7,7 +7,7 @@
 <section class="main-content">
 	<?php 
 		$pages = array(
-			'subject','marks','profile','student_details','settings'
+			'subject','marks','profile','student_details','settings','attendence'
 		);
 
 		$page = "";

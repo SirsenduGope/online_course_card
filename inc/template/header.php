@@ -47,10 +47,10 @@
 				      <a href="#" class="brand-logo"><img class="responsive-img" width="300px" height="300px;"style="padding:4px;"src="img/pu.png" ></a>
 				      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				      <ul id="nav-mobile" class="right hide-on-med-and-down">
-				        <li><a href="badges.html">PROFILE</a></li>
+				        <!-- <li><a href="badges.html">PROFILE</a></li>
 				        <li><a href="collapsible.html">SETTING</a></li>
 				        <li><a href="collapsible.html">LOG OUT</a></li>
-				      </ul>
+				      </ul> -->
 				     </div>
 				  </nav>
 		</header>

@@ -9,12 +9,7 @@
 	<!--Add New Student-->
 	<div id="test1" class="col s12">
 		<div class=" row">
-<<<<<<< HEAD
 			<?php require("Form/student_register_form.php") ?>
-
-=======
-            <?php require("Form/student_register_form.php") ?>
->>>>>>> 91856a0a22933df493c423d604dfd79c03213057
 		</div>
 	</div>
 

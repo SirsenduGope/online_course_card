@@ -3,6 +3,7 @@
 <li><a href="<?php echo HOME_URL ?>staff.php?page=faculty_subject">Faculty Under Course</a></li>
 <li><a href="<?php echo HOME_URL ?>staff.php?page=subject_register">Register Subject</a></li>
 <li><a href="<?php echo HOME_URL ?>staff.php?page=course_register">Register Course</a></li>
+<li><a href="<?php echo HOME_URL ?>staff.php?page=other_dept_softcore">Other Dept. Softcore</a></li>
 <li><a href="<?php echo HOME_URL ?>staff.php?page=fees">Fees</a></li>
 <li><a href="<?php echo HOME_URL ?>staff.php?page=student_details">Student Details</a></li>
 <li class="divider"></li>
