@@ -13,7 +13,7 @@
 			<form name="subject_add" class="col s12">
 				<div class="row">
 			        <div class="input-field col s6">
-			          <input  id="course_id" type="text" class="validate" pattern="[0-9]+" required>
+			          <input  id="course_id" type="text" class="validate" pattern="[0-9]{3}" required>
 			          <label for="course_id" data-error="wrong" data-success="right">Course ID</label>
 			        </div>
 			        <div class="input-field col s6">
@@ -23,7 +23,7 @@
 			    </div>
 				 <div class="row">
 			        <div class="input-field col s6">
-			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z]+" required>
+			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z\s]+" required>
 			          <label for="subject_name" data-error="wrong" data-success="right">Subject Name</label>
 			        </div>
       			</div>
@@ -106,7 +106,7 @@
 			    </div>
 				 <div class="row">
 			        <div class="input-field col s6">
-			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z]+" required>
+			          <input  id="subject_name" type="text" class="validate" pattern="[a-zA-Z\s]+" required>
 			          <label for="subject_name" data-error="wrong" data-success="right">Subject Name</label>
 			        </div>
       			</div>

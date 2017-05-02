@@ -19,7 +19,7 @@
 	</div>
 
 	<div id="test2" class="col s12">
-		<div class="input-field col s4">
+		<div class="col s12">
 			<form>
 				<div class="row">
 					<div class="input-field col s6">
@@ -35,21 +35,24 @@
 
 				<div class="row">
 					<div class="input-field col s6">
-			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]{2,3}" required>
+			          <input  id="subject_credit" type="text" class="validate" pattern="[0-9]{1}" required>
 			          <label for="subject_credit" data-error="wrong" data-success="right">Subject Credit</label>
 			        </div>
 
 			        <div class="input-field col s6">
 			          <select>
-			      		<option value="" disabled selected>Chose your option</option>
-			      		<option value="1">MCA</option>
-			      		<option value="2">M.Sc.</option>
-			      		<option value="3">M.Tech.</option>
+			      		<option value="" disabled selected>Choose any one</option>
+			      		<option value="1">1st</option>
+			      		<option value="2">2nd</option>
+			      		<option value="3">3rd</option>
+								<option value="4">4th</option>
+								<option value="5">5th</option>
+								<option value="6">6th</option>
 			  		</select>
-			  		<label>Softcore</label>	
+			  		<label>Semester</label>
 			        </div>
 				</div>
-				
+
 				<button class="btn waves-effect waves-light"  type="submit" name="action">Submit
 					<i class="material-icons right">send</i>
 				</button>

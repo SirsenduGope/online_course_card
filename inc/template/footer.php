@@ -13,5 +13,6 @@
       <script type="text/javascript" src="js/common.js"></script>
       <script type="text/javascript" src="js/faculty_marks.js"></script>
       <script type="text/javascript" src="js/student_education.js"></script>
+      <script type="text/javascript" src="js/form_validate.js"></script>
 	</body>
 </html>
